@@ -9,9 +9,9 @@ enBtn.onclick = () => {
   document.documentElement.lang = "en";
   document.documentElement.dir = "ltr";
 
-  title.textContent = "Abdo El Amir";
-  branch.textContent = "Dubai Branch";
-  footer.textContent = "© 2026 Abdo El Amir – Dubai";
+  title.textContent = "PROVISION";
+  branch.textContent = "by Abdo Elamir - Dubai Branch";
+  footer.textContent = "© 2026 Abdo El Amir";
 
   enBtn.classList.add("active");
   arBtn.classList.remove("active");
@@ -21,10 +21,11 @@ arBtn.onclick = () => {
   document.documentElement.lang = "ar";
   document.documentElement.dir = "rtl";
 
-  title.textContent = "عبده الأمير";
-  branch.textContent = "فرع دبي";
-  footer.textContent = "© 2026 عبده الأمير – دبي";
+  title.textContent = "بروڤيچن";
+  branch.textContent = "من عبدو الأمير - فرع دبي";
+  footer.textContent = "© 2026 عبده الأمير";
 
   arBtn.classList.add("active");
   enBtn.classList.remove("active");
 };
+
